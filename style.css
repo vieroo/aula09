@@ -9,3 +9,21 @@ aside {
 main{
     flex: 6;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav div:not(:first-child) {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+nav div:not(:first-child):hover {
+    background-color: #777777;
+}
+
+a {
+    color: yellowgreen;
+}
